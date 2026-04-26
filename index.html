@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohamed Sashan - Cybersecurity Student & Developer Portfolio</title>
+    
+    <link rel="stylesheet" href="templatemo-glossy-touch.css">
+    <style>
+        /* Project links styling */
+        .project-link {
+            color: white !important;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            display: inline-block;
+            margin: 5px 0;
+        }
+        .project-link:hover {
+            transform: translateX(5px);
+            text-shadow: 0 0 10px rgba(255,255,255,0.5);
+        }
+        .service-features li {
+            list-style: none;
+            margin: 10px 0;
+        }
+        .badge {
+            background: rgba(255,255,255,0.2);
+            padding: 2px 8px;
+            border-radius: 20px;
+            font-size: 12px;
+            margin-left: 8px;
+        }
+        .live-demo-link {
+            color: #4CAF50 !important;
+        }
+        .code-link {
+            color: #FF9800 !important;
+        }
+    </style>
+</head>
+<body>
+    <div class="bg-shapes">
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+    </div>
+
+    <!-- SINGLE NAVIGATION HEADER -->
+    <header>
+        <div class="container">
+            <nav class="glass">
+                <div class="logo" onclick="showPage('home')">
+                    <div class="logo-icon">
+                        <svg viewBox="0 0 48 48" fill="white" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="16" cy="16" r="5" opacity="0.9"/>
+                            <circle cx="32" cy="16" r="4" opacity="0.8"/>
+                            <circle cx="16" cy="32" r="4" opacity="0.7"/>
+                            <circle cx="32" cy="32" r="5" opacity="0.85"/>
+                            <circle cx="24" cy="8" r="2" opacity="1"/>
+                            <circle cx="8" cy="24" r="2" opacity="0.9"/>
+                            <circle cx="40" cy="24" r="2" opacity="0.9"/>
+                            <circle cx="24" cy="40" r="2" opacity="1"/>
+                            <circle cx="8" cy="8" r="1" opacity="0.6"/>
+                            <circle cx="40" cy="8" r="1" opacity="0.6"/>
+                            <circle cx="8" cy="40" r="1" opacity="0.6"/>
+                            <circle cx="40" cy="40" r="1" opacity="0.6"/>
+                        </svg>
+                    </div>
+                    <span>Mohamed Sashan</span>
+                </div>
+                <div class="nav-links">
+                    <a href="#" onclick="showPage('home')" class="active">Home</a>
+                    <a href="#" onclick="showPage('about')">About</a>
+                    <a href="#" onclick="showPage('projects')">Projects</a>
+                    <a href="#" onclick="showPage('contact')">Contact</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HOME PAGE -->
+    <div id="home" class="page active">
+        <div class="container">
+            <div class="content-wrapper">
+                <section class="hero glass">
+                    <div class="hero-image">
+                        <img src="./head shot pic.jpg" alt="Mohamed Sashan" />
+                    </div>
+                    <div class="hero-content">
+                        <h1>About Me !</h1>
+                        <p>I'm Mohamed Sashan, a passionate cyber security student & currently pursuing my diploma in cyber security at Marstech PVT.(LTD). Now I have completed:</p>
+                        <ul style="color: rgba(255,255,255,0.9); margin-bottom: 20px; margin-left: 20px;">
+                            <li>✅ Advanced Computer Hardware</li>
+                            <li>✅ Administrational Network</li>
+                            <li>✅ Full Stack Development</li>
+                            <li>✅ C Programming</li>
+                            <li>✅ PHP</li>
+                            <li>✅ Networking (CCNA)</li>
+                        </ul>
+                        <p>And I'm deeply focused on creating a successful Life. Always learning - always growing.</p>
+                        <a href="#" class="cta-button" onclick="showPage('about')">Learn More</a>
+                    </div>
+                </section>
+
+                <section class="features">
+                    <div class="feature-card glass">
+                        <div class="feature-icon">✨</div>
+                        <h3>Modern Design</h3>
+                        <p>Beautiful glass morphism effects with backdrop blur and translucent elements that create depth and visual hierarchy.</p>
+                    </div>
+                    
+                    <div class="feature-card glass">
+                        <div class="feature-icon">⚡</div>
+                        <h3>Fast Performance</h3>
+                        <p>Optimized animations and effects that maintain smooth 60fps performance across all modern browsers and devices.</p>
+                    </div>
+                    
+                    <div class="feature-card glass">
+                        <div class="feature-icon">📱</div>
+                        <h3>Responsive</h3>
+                        <p>Fully responsive design that adapts beautifully to any screen size, from mobile phones to desktop displays.</p>
+                    </div>
+
+                    <div class="feature-card glass">
+                        <div class="feature-icon">🎨</div>
+                        <h3>Interactive UI</h3>
+                        <p>Engaging hover effects, smooth transitions, and micro-animations that create delightful user experiences.</p>
+                    </div>
+
+                    <div class="feature-card glass">
+                        <div class="feature-icon">🔒</div>
+                        <h3>Secure & Safe</h3>
+                        <p>Built with modern security standards and best practices to ensure your data and user privacy are protected.</p>
+                    </div>
+
+                    <div class="feature-card glass">
+                        <div class="feature-icon">🚀</div>
+                        <h3>Easy Integration</h3>
+                        <p>Simple to implement and customize for any project with clean, well-documented code and flexible components.</p>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <!-- ABOUT PAGE -->
+    <div id="about" class="page">
+        <div class="container">
+            <div class="content-wrapper">
+                <section class="about-content">
+                    <div class="about-text glass">
+                        <h2>About Me & My Vision</h2>
+                        <p>I'm Mohamed Sashan, a dedicated cybersecurity student with a passion for creating secure digital environments. Currently pursuing cybersecurity course at Marstech.Lk, I've successfully completed advanced training in computer hardware, networking, full-stack development, and CCNA.</p>
+                        <p><strong>Technical Skills:</strong> HTML, CSS, JavaScript, PHP, C Programming, MySQL, Bootstrap, Git, GitHub, CCNA </p>
+                        <p>My vision is to create a safe and trustworthy digital world where people and organizations can confidently operate, innovate, and thrive without fear of cyber threats. Every project I undertake is crafted with attention to detail, ensuring that form follows function while never compromising on security or aesthetic beauty.</p>
+                    </div>
+                    <div class="stats">
+                        <div class="stat-card glass">
+                            <div class="stat-number">14+</div>
+                            <div class="stat-label">Projects Completed</div>
+                        </div>
+                        <div class="stat-card glass">
+                            <div class="stat-number">10+</div>
+                            <div class="stat-label">GitHub Repos</div>
+                        </div>
+                        <div class="stat-card glass">
+                            <div class="stat-number">1+</div>
+                            <div class="stat-label">Years Experience</div>
+                        </div>
+                        <div class="stat-card glass">
+                            <div class="stat-number">24/7</div>
+                            <div class="stat-label">Learning Mode</div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <!-- PROJECTS PAGE WITH LIVE DEMOS + SOURCE CODE -->
+    <div id="projects" class="page">
+        <div class="container">
+            <div class="content-wrapper">
+                <section class="hero glass">
+                    <h1>My GitHub Projects</h1>
+                    <p>🔥 Live Demo + Source Code | 14+ Completed Projects</p>
+                </section>
+
+                <section class="services-grid">
+                    <!-- PHP Projects (Source Code Only) -->
+                    <div class="service-card glass">
+                        <div class="service-header">
+                            <div class="service-icon">🐘</div>
+                            <h3>PHP Projects</h3>
+                        </div>
+                        <ul class="service-features">
+                            <li>📊 <a href="https://github.com/sashan-cyber/Grama_niladhari" target="_blank" class="project-link">📁 Source Code</a> <span class="badge">Grama Niladhari</span></li>
+                            <li>💳 <a href="https://github.com/sashan-cyber/Data_Selection-billing" target="_blank" class="project-link">📁 Source Code</a> <span class="badge">Data Selection Billing</span></li>
+                        </ul>
+                    </div>
+
+                    <!-- OSINT Tool -->
+                    <div class="service-card glass">
+                        <div class="service-header">
+                            <div class="service-icon">🛠️</div>
+                            <h3>Cyber Security Tool</h3>
+                        </div>
+                        <ul class="service-features">
+                            <li>🔍 <a href="https://sashan-cyber.github.io/Osint-ToolKit/" target="_blank" class="project-link">🔴 Live Demo</a> | <a href="https://github.com/sashan-cyber/Osint-ToolKit" target="_blank" class="project-link">📁 Source Code</a> <span class="badge">OSINT ToolKit</span></li>
+                        </ul>
+                    </div>
+
+                    <!-- Web Applications -->
+                    <div class="service-card glass">
+                        <div class="service-header">
+                            <div class="service-icon">🏨</div>
+                            <h3>Web Applications</h3>
+                        </div>
+                        <ul class="service-features">
+                            <li>🏨 <a href="https://sashan-cyber.github.io/Hotal_Reservation/" target="_blank" class="project-link">🔴 Live Demo</a> | <a href="https://github.com/sashan-cyber/Hotal_Reservation" target="_blank" class="project-link">📁 Source Code</a> <span class="badge">Hotel Reservation</span></li>
+                            <li>🛒 <a href="https://sashan-cyber.github.io/ABC-Shop-Invoice/" target="_blank" class="project-link">🔴 Live Demo</a> | <a href="https://github.com/sashan-cyber/ABC-Shop-Invoice" target="_blank" class="project-link">📁 Source Code</a> <span class="badge">ABC Shop Invoice</span></li>
+                            <li>🧾 <a href="https://sashan-cyber.github.io/Bill-Calculation/" target="_blank" class="project-link">🔴 Live Demo</a> | <a href="https://github.com/sashan-cyber/Bill-Calculation" target="_blank" class="project-link">📁 Source Code</a> <span class="badge">Bill Calculation</span></li>
+                        </ul>
+                    </div>
+
+                    <!-- Form Validation Projects -->
+                    <div class="service-card glass">
+                        <div class="service-header">
+                            <div class="service-icon">📝</div>
+                            <h3>Form Validation</h3>
+                        </div>
+                        <ul class="service-features">
+                            <li>✅ <a href="https://sashan-cyber.github.io/Form-Validation_2/" target="_blank" class="project-link">🔴 Live Demo</a> | <a href="https://github.com/sashan-cyber/Form-Validation_2" target="_blank" class="project-link">📁 Source Code</a> <span class="badge">Version 2</span></li>
+                            <li>✅ <a href="https://sashan-cyber.github.io/Form-Validation/" target="_blank" class="project-link">🔴 Live Demo</a> | <a href="https://github.com/sashan-cyber/Form-Validation" target="_blank" class="project-link">📁 Source Code</a> <span class="badge">Version 1</span></li>
+                        </ul>
+                    </div>
+
+                    <!-- HTML/CSS Learning Projects -->
+                    <div class="service-card glass">
+                        <div class="service-header">
+                            <div class="service-icon">🎨</div>
+                            <h3>HTML & CSS Projects</h3>
+                        </div>
+                        <ul class="service-features">
+                            <li>🚀 <a href="https://sashan-cyber.github.io/bootstrap-project/" target="_blank" class="project-link">🔴 Live Demo</a> | <a href="https://github.com/sashan-cyber/bootstrap-project" target="_blank" class="project-link">📁 Source Code</a> <span class="badge">Bootstrap</span></li>
+                            <li>🏳️ <a href="https://sashan-cyber.github.io/css-flag-project/" target="_blank" class="project-link">🔴 Live Demo</a> | <a href="https://github.com/sashan-cyber/css-flag-project" target="_blank" class="project-link">📁 Source Code</a> <span class="badge">CSS Flag</span></li>
+                            <li>🎭 <a href="https://sashan-cyber.github.io/css-motivation-meme/" target="_blank" class="project-link">🔴 Live Demo</a> | <a href="https://github.com/sashan-cyber/css-motivation-meme" target="_blank" class="project-link">📁 Source Code</a> <span class="badge">Motivation Meme</span></li>
+                            <li>🎨 <a href="https://sashan-cyber.github.io/color-vocab-project/" target="_blank" class="project-link">🔴 Live Demo</a> | <a href="https://github.com/sashan-cyber/color-vocab-project" target="_blank" class="project-link">📁 Source Code</a> <span class="badge">Color Vocabulary</span></li>
+                            <li>🔍 <a href="https://sashan-cyber.github.io/css-selectors/" target="_blank" class="project-link">🔴 Live Demo</a> | <a href="https://github.com/sashan-cyber/css-selectors" target="_blank" class="project-link">📁 Source Code</a> <span class="badge">CSS Selectors</span></li>
+                            <li>📁 <a href="https://sashan-cyber.github.io/html_portfolio1/" target="_blank" class="project-link">🔴 Live Demo</a> | <a href="https://github.com/sashan-cyber/html_portfolio1" target="_blank" class="project-link">📁 Source Code</a> <span class="badge">HTML Portfolio</span></li>
+                        </ul>
+                    </div>
+
+                    <!-- Current Portfolio -->
+                    <div class="service-card glass">
+                        <div class="service-header">
+                            <div class="service-icon">🌟</div>
+                            <h3>Current Portfolio</h3>
+                        </div>
+                        <ul class="service-features">
+                            <li>💼 <a href="https://sashan-cyber.github.io/personal-portfolio/" target="_blank" class="project-link">🔴 Live Demo</a> | <a href="https://github.com/sashan-cyber/personal-portfolio" target="_blank" class="project-link">📁 Source Code</a> <span class="badge">This Website</span></li>
+                        </ul>
+                    </div>
+                </section>
+                
+                <section class="hero glass" style="margin-top: 30px; text-align: center;">
+                    <p>⭐ <strong>14+ Public Repositories on GitHub</strong> | Every project has Live Demo + Source Code</p>
+                    <p>🔗 <a href="https://github.com/sashan-cyber" target="_blank" style="color: white; font-size: 18px;">📌 Visit my GitHub Profile →</a></p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <!-- CONTACT PAGE -->
+    <div id="contact" class="page">
+        <div class="container">
+            <div class="content-wrapper">
+                <section class="contact-grid">
+                    <div class="contact-form glass">
+                        <h2>Get In Touch</h2>
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <label for="name">Full Name</label>
+                                <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <input type="text" id="subject" name="subject" placeholder="What's this about?">
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" placeholder="Tell me about your project..." required></textarea>
+                            </div>
+                            <button type="submit" class="cta-button">Send Message</button>
+                        </form>
+                    </div>
+
+                    <div class="contact-info glass">
+                        <h2>Contact Information</h2>
+                        
+                        <div class="contact-item">
+                            <div class="contact-item-icon">📧</div>
+                            <div class="contact-item-text">
+                                <h4>Email</h4>
+                                <p>mhdsasha148@gmail.com</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-item-icon">📞</div>
+                            <div class="contact-item-text">
+                                <h4>Phone</h4>
+                                <p>+94 (76) 5468084</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-item-icon">📍</div>
+                            <div class="contact-item-text">
+                                <h4>Address</h4>
+                                <p>188, Nachchaduwa<br>Anuradhapura District, Sri Lanka</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-item-icon">🔗</div>
+                            <div class="contact-item-text">
+                                <h4>GitHub</h4>
+                                <p><a href="https://github.com/sashan-cyber" target="_blank" style="color: white;">github.com/sashan-cyber</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <!-- SINGLE FOOTER -->
+    <div id="footer">
+        <div class="container">
+            <footer class="glass">
+                <div class="footer-content">
+                    <div class="footer-links">
+                        <a href="#" onclick="showPage('about')">About Me</a>
+                        <a href="#" onclick="showPage('projects')">Projects</a>
+                        <a href="#" onclick="showPage('contact')">Contact</a>
+                        <a href="https://github.com/sashan-cyber" target="_blank">GitHub</a>
+                    </div>
+                    <div class="copyright">
+                        <p>© 2025 Mohamed Sashan | Cybersecurity Student & Developer</p>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+<script src="templatemo-glossy-touch.js"></script>
+<script>
+    // Update navigation to handle 'projects' page
+    function showPage(pageId) {
+        document.querySelectorAll('.page').forEach(page => {
+            page.classList.remove('active');
+        });
+        document.getElementById(pageId).classList.add('active');
+        
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.classList.remove('active');
+            if (link.getAttribute('onclick') === `showPage('${pageId}')`) {
+                link.classList.add('active');
+            }
+        });
+        
+        const footer = document.getElementById('footer');
+        const activePage = document.getElementById(pageId);
+        activePage.appendChild(footer);
+        
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    // Initialize footer position
+    document.addEventListener('DOMContentLoaded', () => {
+        const footer = document.getElementById('footer');
+        const homePage = document.getElementById('home');
+        homePage.appendChild(footer);
+    });
+</script>
+</body>
+</html>
